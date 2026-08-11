@@ -108,13 +108,19 @@ def get_last_creative_change_days(account_id: str, token: str, object_id: str) -
         {
             "since": since,
             "object_id": object_id,
-            "fields": "event_type,event_time",
+            "fields": "event_type,event_time,object_id",
             "limit": 200,
         },
         token,
     )
+    # The API's object_id param doesn't actually filter server-side — it
+    # returns activity for other ads and account-level events too, so we
+    # have to filter client-side or every ad ends up with the same (wrong)
+    # "latest" timestamp.
     creative_events = [
-        a for a in body.get("data", []) if a.get("event_type") in CREATIVE_CHANGE_EVENT_TYPES
+        a
+        for a in body.get("data", [])
+        if a.get("event_type") in CREATIVE_CHANGE_EVENT_TYPES and a.get("object_id") == object_id
     ]
     if not creative_events:
         return None
