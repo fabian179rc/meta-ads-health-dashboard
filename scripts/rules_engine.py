@@ -10,7 +10,7 @@ FREQUENCY_FATIGUE_THRESHOLD = 3.5
 CTR_TREND_BAD_THRESHOLD_PCT = -25.0
 CVR_TREND_BAD_THRESHOLD_PCT = -25.0
 CPA_TREND_BAD_THRESHOLD_PCT = 30.0
-CREATIVE_AGE_FALLBACK_DAYS = 42  # 6 weeks, used only when trend data is missing
+CREATIVE_AGE_FALLBACK_DAYS = 14  # 2 weeks, used only when trend data is missing
 MIN_IMPRESSIONS_FOR_SIGNAL = 1000
 MIN_DAYS_ACTIVE_FOR_SIGNAL = 3
 NO_SALES_SPEND_THRESHOLD = 50.0  # account currency units; adjustable per spec section 10
@@ -92,7 +92,7 @@ def classify_campaign(m: CampaignMetrics) -> VerdictResult:
     ):
         reasons_renew.append(
             f"Sin datos de tendencia suficientes y {m.days_since_last_creative} días "
-            f"(> 6 semanas / {CREATIVE_AGE_FALLBACK_DAYS} días) sin creativo nuevo"
+            f"(> {CREATIVE_AGE_FALLBACK_DAYS} días) sin creativo nuevo"
         )
     if reasons_renew:
         return VerdictResult(RENEW_CREATIVE, reasons_renew)

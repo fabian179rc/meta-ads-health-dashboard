@@ -80,10 +80,10 @@ def test_bad_cvr_trend_is_renew_creative():
 
 def test_old_creative_with_no_trend_data_is_renew_creative():
     result = classify_campaign(
-        _base_metrics(ctr_trend_pct=None, cvr_trend_pct=None, days_since_last_creative=50)
+        _base_metrics(ctr_trend_pct=None, cvr_trend_pct=None, days_since_last_creative=20)
     )
     assert result.verdict == "renew_creative"
-    assert any("6 semanas" in r.lower() or "42" in r for r in result.reasons)
+    assert any("14" in r for r in result.reasons)
 
 
 def test_low_impressions_is_insufficient_data():
