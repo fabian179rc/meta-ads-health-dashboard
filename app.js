@@ -12,13 +12,31 @@ function formatCurrency(value) {
   return `$${value.toFixed(2)}`;
 }
 
+function renderPeriod(snapshot) {
+  const el = document.getElementById("period");
+  const period = snapshot.period;
+  if (!period) {
+    el.textContent = "";
+    return;
+  }
+  el.textContent =
+    `Período evaluado: ${period.current_since} a ${period.current_until} ` +
+    `(comparado contra ${period.prior_since} a ${period.prior_until})`;
+}
+
 function renderSummary(snapshot) {
   const el = document.getElementById("summary");
   el.innerHTML = `
     <div class="stat"><div>Gasto</div><div class="value">${formatCurrency(snapshot.account_spend)}</div></div>
     <div class="stat"><div>Ventas</div><div class="value">${snapshot.account_purchases}</div></div>
-    <div class="stat"><div>CPA</div><div class="value">${formatCurrency(snapshot.account_cpa)}</div></div>
+    <div class="stat"><div>CPA (Costo Por Adquisición)</div><div class="value">${formatCurrency(snapshot.account_cpa)}</div></div>
   `;
+}
+
+function formatCreativeAge(days) {
+  if (days === null || days === undefined) return "sin datos";
+  if (days === 0) return "hoy";
+  return `hace ${days} día${days === 1 ? "" : "s"}`;
 }
 
 function renderCampaigns(snapshot) {
@@ -40,7 +58,7 @@ function renderCampaigns(snapshot) {
         <article class="campaign ${campaign.verdict}">
           <span class="badge ${campaign.verdict}">${VERDICT_LABELS[campaign.verdict] || campaign.verdict}</span>
           <h2>${campaign.campaign_name}</h2>
-          <div class="metrics">Gasto: ${formatCurrency(campaign.spend)} · Ventas: ${campaign.purchases}</div>
+          <div class="metrics">Gasto: ${formatCurrency(campaign.spend)} · Ventas: ${campaign.purchases} · Último creativo: ${formatCreativeAge(campaign.days_since_last_creative)}</div>
           <ul class="reasons">
             ${uniqueReasons.map((r) => `<li>${r}</li>`).join("")}
           </ul>
@@ -62,6 +80,7 @@ async function main() {
       updatedAtEl.textContent = `Última actualización: ${snapshot.generated_at}`;
     }
 
+    renderPeriod(snapshot);
     renderSummary(snapshot);
     renderCampaigns(snapshot);
   } catch (err) {

@@ -39,6 +39,10 @@ def test_build_snapshot_aggregates_campaign_totals_and_classifies():
     assert campaign["campaign_id"] == "camp1"
     assert campaign["verdict"] == "good"
     assert campaign["ads"][0]["ad_id"] == "ad1"
+    assert campaign["ads"][0]["days_since_last_creative"] == 5
+    assert campaign["days_since_last_creative"] == 5
+    assert snapshot["period"]["current_since"] < snapshot["period"]["current_until"]
+    assert snapshot["period"]["prior_until"] < snapshot["period"]["current_since"]
 
 
 def test_build_snapshot_flags_declining_ctr_as_renew_creative():
@@ -59,6 +63,16 @@ def test_build_snapshot_handles_zero_purchase_account_cpa():
         snapshot = fa.build_snapshot(token="fake-token")
 
     assert snapshot["account_cpa"] is None
+
+
+def test_build_snapshot_campaign_creative_age_is_most_recent_ad():
+    ad_two = {**CURRENT_ROW, "ad_id": "ad2", "ad_name": "Ad Two"}
+    with patch.object(fa, "get_ad_insights_for_range", side_effect=[[CURRENT_ROW, ad_two], [PRIOR_ROW, PRIOR_ROW]]), \
+         patch.object(fa, "get_delivery_issues", return_value={}), \
+         patch.object(fa, "get_last_creative_change_days", side_effect=[30, 5]):
+        snapshot = fa.build_snapshot(token="fake-token")
+
+    assert snapshot["campaigns"][0]["days_since_last_creative"] == 5
 
 
 def test_build_snapshot_handles_no_current_purchases_with_prior_purchases():

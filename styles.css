@@ -39,6 +39,12 @@ header {
   cursor: default;
 }
 
+#period {
+  color: var(--unknown);
+  font-size: 0.85rem;
+  margin: 0 0 1rem 0;
+}
+
 #summary {
   display: flex;
   gap: 1rem;

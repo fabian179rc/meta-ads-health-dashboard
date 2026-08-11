@@ -85,12 +85,19 @@ def build_snapshot(token: str) -> dict:
                 "ad_name": row["ad_name"],
                 "verdict": verdict_result.verdict,
                 "reasons": verdict_result.reasons,
+                "days_since_last_creative": days_since_creative,
             }
         )
 
     for campaign in campaigns.values():
         campaign["verdict"] = rollup_campaign_verdict([ad["verdict"] for ad in campaign["ads"]])
         campaign["spend"] = round(campaign["spend"], 2)
+        creative_ages = [
+            ad["days_since_last_creative"]
+            for ad in campaign["ads"]
+            if ad["days_since_last_creative"] is not None
+        ]
+        campaign["days_since_last_creative"] = min(creative_ages) if creative_ages else None
 
     account_spend = sum(c["spend"] for c in campaigns.values())
     account_purchases = sum(c["purchases"] for c in campaigns.values())
@@ -98,6 +105,12 @@ def build_snapshot(token: str) -> dict:
     return {
         "generated_at": today.isoformat(),
         "account_id": ACCOUNT_ID,
+        "period": {
+            "current_since": current_since,
+            "current_until": current_until,
+            "prior_since": prior_since,
+            "prior_until": prior_until,
+        },
         "account_spend": round(account_spend, 2),
         "account_purchases": account_purchases,
         "account_cpa": round(account_spend / account_purchases, 2) if account_purchases else None,
