@@ -10,7 +10,7 @@ OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "latest.json
 
 
 def _pct_change(current, prior):
-    if prior in (None, 0):
+    if current is None or prior in (None, 0):
         return None
     return ((current - prior) / prior) * 100
 

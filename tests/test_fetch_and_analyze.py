@@ -59,3 +59,14 @@ def test_build_snapshot_handles_zero_purchase_account_cpa():
         snapshot = fa.build_snapshot(token="fake-token")
 
     assert snapshot["account_cpa"] is None
+
+
+def test_build_snapshot_handles_no_current_purchases_with_prior_purchases():
+    no_purchase_current = {**CURRENT_ROW, "purchases": 0, "cost_per_purchase": None, "clicks": 100}
+    with patch.object(fa, "get_ad_insights_for_range", side_effect=[[no_purchase_current], [PRIOR_ROW]]), \
+         patch.object(fa, "get_delivery_issues", return_value={}), \
+         patch.object(fa, "get_last_creative_change_days", return_value=5):
+        snapshot = fa.build_snapshot(token="fake-token")
+
+    ad = snapshot["campaigns"][0]["ads"][0]
+    assert ad["ad_id"] == "ad1"
