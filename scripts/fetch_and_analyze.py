@@ -2,8 +2,12 @@ import json
 import os
 from datetime import date, timedelta
 
+from dotenv import load_dotenv
+
 from meta_client import get_ad_insights_for_range, get_delivery_issues, get_last_creative_change_days
 from rules_engine import CampaignMetrics, classify_campaign, rollup_campaign_verdict
+
+load_dotenv()
 
 ACCOUNT_ID = "1899970234248234"
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "latest.json")

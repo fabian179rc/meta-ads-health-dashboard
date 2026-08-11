@@ -1,8 +1,322 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-08-11",
   "account_id": "1899970234248234",
-  "account_spend": 0,
-  "account_purchases": 0,
-  "account_cpa": null,
-  "campaigns": []
+  "account_spend": 811.57,
+  "account_purchases": 114,
+  "account_cpa": 7.12,
+  "campaigns": [
+    {
+      "campaign_id": "120247384579730074",
+      "campaign_name": "HyS 29/6",
+      "spend": 183.93,
+      "purchases": 24,
+      "ads": [
+        {
+          "ad_id": "120247384858790074",
+          "ad_name": "ad5",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120247747247220074",
+          "ad_name": "ad7 7/7",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 716 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248500661490074",
+          "ad_name": "ad10 1/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 501 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248500661500074",
+          "ad_name": "ad9 1/8",
+          "verdict": "renew_creative",
+          "reasons": [
+            "CTR cayó -73.2% vs. período anterior",
+            "CVR cayó -100.0% vs. período anterior"
+          ]
+        },
+        {
+          "ad_id": "120248500661510074",
+          "ad_name": "ad8 1/8",
+          "verdict": "renew_creative",
+          "reasons": [
+            "CTR cayó -32.2% vs. período anterior",
+            "CVR cayó -65.1% vs. período anterior"
+          ]
+        },
+        {
+          "ad_id": "120248780666080074",
+          "ad_name": "ad12 11/8",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120248780666090074",
+          "ad_name": "ad11 11/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 123 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        }
+      ],
+      "verdict": "renew_creative"
+    },
+    {
+      "campaign_id": "120248428309360074",
+      "campaign_name": "Capacitaciones Mex",
+      "spend": 220.41,
+      "purchases": 24,
+      "ads": [
+        {
+          "ad_id": "120248428309340074",
+          "ad_name": "ad1",
+          "verdict": "renew_creative",
+          "reasons": [
+            "CTR cayó -27.5% vs. período anterior",
+            "CVR cayó -88.7% vs. período anterior"
+          ]
+        },
+        {
+          "ad_id": "120248428371630074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 2 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248428371660074",
+          "ad_name": "ad5",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120248547847270074",
+          "ad_name": "ad8 3/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 116 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248547874960074",
+          "ad_name": "ad7 3/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 22 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248547874970074",
+          "ad_name": "ad6 3/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 61 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        }
+      ],
+      "verdict": "renew_creative"
+    },
+    {
+      "campaign_id": "120248544595250074",
+      "campaign_name": "Bio Hack 3/8 {ARG}",
+      "spend": 145.22,
+      "purchases": 21,
+      "ads": [
+        {
+          "ad_id": "120248544706090074",
+          "ad_name": "ad5",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 64 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248544706100074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 10 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248544706110074",
+          "ad_name": "ad3",
+          "verdict": "renew_creative",
+          "reasons": [
+            "CVR cayó -62.2% vs. período anterior"
+          ]
+        },
+        {
+          "ad_id": "120248544706120074",
+          "ad_name": "ad4",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 21 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        }
+      ],
+      "verdict": "renew_creative"
+    },
+    {
+      "campaign_id": "120248548333120074",
+      "campaign_name": "Sistema capacitaciones TEST 3/8",
+      "spend": 122.38,
+      "purchases": 24,
+      "ads": [
+        {
+          "ad_id": "120248548333130074",
+          "ad_name": "ad5",
+          "verdict": "renew_creative",
+          "reasons": [
+            "CVR cayó -100.0% vs. período anterior"
+          ]
+        },
+        {
+          "ad_id": "120248548333140074",
+          "ad_name": "ad3",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120248548333150074",
+          "ad_name": "ad4",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120248548363410074",
+          "ad_name": "ad6",
+          "verdict": "renew_creative",
+          "reasons": [
+            "CTR cayó -34.4% vs. período anterior"
+          ]
+        },
+        {
+          "ad_id": "120248781361880074",
+          "ad_name": "ad711/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 179 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248781362740074",
+          "ad_name": "ad8 11/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 47 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        }
+      ],
+      "verdict": "renew_creative"
+    },
+    {
+      "campaign_id": "120248605590560074",
+      "campaign_name": "Auditorias 5/8",
+      "spend": 131.1,
+      "purchases": 21,
+      "ads": [
+        {
+          "ad_id": "120248605590580074",
+          "ad_name": "ad1",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120248606557600074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 160 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248606557610074",
+          "ad_name": "ad3",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        },
+        {
+          "ad_id": "120248606557620074",
+          "ad_name": "ad4",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 787 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248606557630074",
+          "ad_name": "ad5",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ]
+        }
+      ],
+      "verdict": "insufficient_data"
+    },
+    {
+      "campaign_id": "120248777917010074",
+      "campaign_name": "DESBLOQUEIO TOTAL",
+      "spend": 8.53,
+      "purchases": 0,
+      "ads": [
+        {
+          "ad_id": "120248777917030074",
+          "ad_name": "ad1",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 34 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248778808260074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 215 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248778808270074",
+          "ad_name": "ad3",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 28 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        },
+        {
+          "ad_id": "120248778808280074",
+          "ad_name": "ad4",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 58 impresiones / 7 días activa — todavía no hay señal confiable"
+          ]
+        }
+      ],
+      "verdict": "insufficient_data"
+    }
+  ]
 }
