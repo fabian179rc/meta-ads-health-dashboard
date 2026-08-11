@@ -1,7 +1,10 @@
 # scripts/meta_client.py
 import datetime
+from concurrent.futures import ThreadPoolExecutor
 
 import requests
+
+MAX_WORKERS = 10
 
 GRAPH_API_VERSION = "v20.0"
 GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
@@ -82,23 +85,19 @@ def get_ad_insights_for_range(account_id: str, token: str, since: str, until: st
     return results
 
 
+def _fetch_issues(obj_id: str, token: str) -> tuple[str, list[str]]:
+    body = _get(obj_id, {"fields": "issues_info{error_summary,level}"}, token)
+    issues = body.get("issues_info", [])
+    blocking = [i["error_summary"] for i in issues if i.get("error_summary")]
+    return obj_id, blocking
+
+
 def get_delivery_issues(object_ids: list[str], token: str) -> dict[str, list[str]]:
     if not object_ids:
         return {}
-    result = {}
-    for obj_id in object_ids:
-        body = _get(
-            obj_id,
-            {
-                "fields": "issues_info{error_summary,level}",
-            },
-            token,
-        )
-        issues = body.get("issues_info", [])
-        blocking = [i["error_summary"] for i in issues if i.get("error_summary")]
-        if blocking:
-            result[obj_id] = blocking
-    return result
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        pairs = executor.map(lambda obj_id: _fetch_issues(obj_id, token), object_ids)
+    return {obj_id: blocking for obj_id, blocking in pairs if blocking}
 
 
 def get_last_creative_change_days(account_id: str, token: str, object_id: str) -> int | None:

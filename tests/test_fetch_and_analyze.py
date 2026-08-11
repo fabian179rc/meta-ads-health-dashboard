@@ -67,9 +67,13 @@ def test_build_snapshot_handles_zero_purchase_account_cpa():
 
 def test_build_snapshot_campaign_creative_age_is_most_recent_ad():
     ad_two = {**CURRENT_ROW, "ad_id": "ad2", "ad_name": "Ad Two"}
+    creative_ages_by_ad = {"ad1": 30, "ad2": 5}
     with patch.object(fa, "get_ad_insights_for_range", side_effect=[[CURRENT_ROW, ad_two], [PRIOR_ROW, PRIOR_ROW]]), \
          patch.object(fa, "get_delivery_issues", return_value={}), \
-         patch.object(fa, "get_last_creative_change_days", side_effect=[30, 5]):
+         patch.object(
+             fa, "get_last_creative_change_days",
+             side_effect=lambda account_id, token, ad_id: creative_ages_by_ad[ad_id],
+         ):
         snapshot = fa.build_snapshot(token="fake-token")
 
     assert snapshot["campaigns"][0]["days_since_last_creative"] == 5

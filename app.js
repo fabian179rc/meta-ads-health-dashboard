@@ -97,7 +97,7 @@ async function handleRefreshClick() {
   const btn = document.getElementById("refresh-btn");
   const updatedAtEl = document.getElementById("updated-at");
   btn.disabled = true;
-  btn.textContent = "Actualizando...";
+  btn.textContent = "Actualizando... (hasta ~20s)";
   try {
     const response = await fetch("/api/refresh", { method: "POST" });
     const body = await response.json();

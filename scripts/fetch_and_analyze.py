@@ -1,11 +1,14 @@
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
 from dotenv import load_dotenv
 
 from meta_client import get_ad_insights_for_range, get_delivery_issues, get_last_creative_change_days
 from rules_engine import CampaignMetrics, classify_campaign, rollup_campaign_verdict
+
+MAX_WORKERS = 10
 
 load_dotenv()
 
@@ -33,6 +36,14 @@ def build_snapshot(token: str) -> dict:
     ad_ids = [row["ad_id"] for row in current_rows]
     issues = get_delivery_issues(ad_ids, token)
 
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        creative_ages = dict(
+            zip(
+                ad_ids,
+                executor.map(lambda ad_id: get_last_creative_change_days(ACCOUNT_ID, token, ad_id), ad_ids),
+            )
+        )
+
     campaigns: dict[str, dict] = {}
     for row in current_rows:
         prior_row = prior_by_ad.get(row["ad_id"], {})
@@ -46,7 +57,7 @@ def build_snapshot(token: str) -> dict:
         )
         cvr_trend = _pct_change(cvr_current, cvr_prior)
         cpa_trend = _pct_change(row.get("cost_per_purchase"), prior_row.get("cost_per_purchase"))
-        days_since_creative = get_last_creative_change_days(ACCOUNT_ID, token, row["ad_id"])
+        days_since_creative = creative_ages[row["ad_id"]]
 
         metrics = CampaignMetrics(
             campaign_id=row["campaign_id"],

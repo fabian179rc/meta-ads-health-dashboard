@@ -27,8 +27,8 @@ commit it). Then either:
   plain `http.server`) — this also exposes `POST /api/refresh`, which powers
   the "Refrescar" button that only appears when the page is loaded from
   `localhost`/`127.0.0.1`. That endpoint re-runs the same pipeline synchronously
-  and can take ~1 minute (one Meta API call per ad for delivery issues and
-  creative-change history). The button is inert on GitHub Pages — there's no
+  (~15-20s — delivery-issue and creative-change lookups run in parallel, one
+  Meta API call per ad). The button is inert on GitHub Pages — there's no
   server there to answer `/api/refresh`, by design, so the Meta token never
   reaches the browser.
 
