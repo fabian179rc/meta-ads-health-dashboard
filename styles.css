@@ -23,6 +23,22 @@ header {
   font-size: 0.9rem;
 }
 
+#refresh-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+#refresh-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
 #summary {
   display: flex;
   gap: 1rem;

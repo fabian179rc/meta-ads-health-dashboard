@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-08-11",
   "account_id": "1899970234248234",
-  "account_spend": 811.57,
+  "account_spend": 814.35,
   "account_purchases": 114,
-  "account_cpa": 7.12,
+  "account_cpa": 7.14,
   "campaigns": [
     {
       "campaign_id": "120247384579730074",
       "campaign_name": "HyS 29/6",
-      "spend": 183.93,
+      "spend": 184.36,
       "purchases": 24,
       "ads": [
         {
@@ -24,7 +24,7 @@
           "ad_name": "ad7 7/7",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 716 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 717 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         },
         {
@@ -66,7 +66,7 @@
           "ad_name": "ad11 11/8",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 123 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 136 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         }
       ],
@@ -75,7 +75,7 @@
     {
       "campaign_id": "120248428309360074",
       "campaign_name": "Capacitaciones Mex",
-      "spend": 220.41,
+      "spend": 220.47,
       "purchases": 24,
       "ads": [
         {
@@ -83,7 +83,7 @@
           "ad_name": "ad1",
           "verdict": "renew_creative",
           "reasons": [
-            "CTR cayó -27.5% vs. período anterior",
+            "CTR cayó -27.2% vs. período anterior",
             "CVR cayó -88.7% vs. período anterior"
           ]
         },
@@ -133,7 +133,7 @@
     {
       "campaign_id": "120248544595250074",
       "campaign_name": "Bio Hack 3/8 {ARG}",
-      "spend": 145.22,
+      "spend": 146.23,
       "purchases": 21,
       "ads": [
         {
@@ -174,7 +174,7 @@
     {
       "campaign_id": "120248548333120074",
       "campaign_name": "Sistema capacitaciones TEST 3/8",
-      "spend": 122.38,
+      "spend": 122.68,
       "purchases": 24,
       "ads": [
         {
@@ -206,7 +206,7 @@
           "ad_name": "ad6",
           "verdict": "renew_creative",
           "reasons": [
-            "CTR cayó -34.4% vs. período anterior"
+            "CTR cayó -34.5% vs. período anterior"
           ]
         },
         {
@@ -214,7 +214,7 @@
           "ad_name": "ad711/8",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 179 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 203 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         },
         {
@@ -222,7 +222,7 @@
           "ad_name": "ad8 11/8",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 47 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 60 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         }
       ],
@@ -231,7 +231,7 @@
     {
       "campaign_id": "120248605590560074",
       "campaign_name": "Auditorias 5/8",
-      "spend": 131.1,
+      "spend": 131.54,
       "purchases": 21,
       "ads": [
         {
@@ -280,7 +280,7 @@
     {
       "campaign_id": "120248777917010074",
       "campaign_name": "DESBLOQUEIO TOTAL",
-      "spend": 8.53,
+      "spend": 9.07,
       "purchases": 0,
       "ads": [
         {
@@ -288,7 +288,7 @@
           "ad_name": "ad1",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 34 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 35 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         },
         {
@@ -296,7 +296,7 @@
           "ad_name": "ad2",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 215 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 230 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         },
         {
@@ -304,7 +304,7 @@
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 28 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 30 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         },
         {
@@ -312,7 +312,7 @@
           "ad_name": "ad4",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 58 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 60 impresiones / 7 días activa — todavía no hay señal confiable"
           ]
         }
       ],

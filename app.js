@@ -70,4 +70,38 @@ async function main() {
   }
 }
 
+function isLocalDev() {
+  return ["localhost", "127.0.0.1"].includes(window.location.hostname);
+}
+
+async function handleRefreshClick() {
+  const btn = document.getElementById("refresh-btn");
+  const updatedAtEl = document.getElementById("updated-at");
+  btn.disabled = true;
+  btn.textContent = "Actualizando...";
+  try {
+    const response = await fetch("/api/refresh", { method: "POST" });
+    const body = await response.json();
+    if (!response.ok || !body.ok) throw new Error(body.error || "Falló el refresh");
+    await main();
+  } catch (err) {
+    updatedAtEl.textContent = `No se pudo refrescar: ${err.message}`;
+    console.error(err);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Refrescar";
+  }
+}
+
+function setupRefreshButton() {
+  // Only meaningful when served by scripts/dev_server.py, which exposes
+  // POST /api/refresh. GitHub Pages is static-only, so keep this hidden
+  // there — there's nothing on the other end to call.
+  if (!isLocalDev()) return;
+  const btn = document.getElementById("refresh-btn");
+  btn.hidden = false;
+  btn.addEventListener("click", handleRefreshClick);
+}
+
+setupRefreshButton();
 main();

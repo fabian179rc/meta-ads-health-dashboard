@@ -105,12 +105,16 @@ def build_snapshot(token: str) -> dict:
     }
 
 
-def main() -> None:
-    token = os.environ["ADS_API_TOKEN"]
-    snapshot = build_snapshot(token)
+def write_snapshot(snapshot: dict) -> None:
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(snapshot, f, indent=2, ensure_ascii=False)
+
+
+def main() -> None:
+    token = os.environ["ADS_API_TOKEN"]
+    snapshot = build_snapshot(token)
+    write_snapshot(snapshot)
     print(
         f"Wrote {OUTPUT_PATH}: {len(snapshot['campaigns'])} campaigns, "
         f"{snapshot['account_purchases']} purchases, ${snapshot['account_spend']} spend"

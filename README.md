@@ -19,13 +19,18 @@ pip install -r requirements-dev.txt
 pytest
 ```
 
-To run the pipeline locally against the real Meta account (never commit the
-token):
+Put `ADS_API_TOKEN=your-token-here` in a local `.env` file (gitignored, never
+commit it). Then either:
 
-```bash
-export ADS_API_TOKEN=your-token-here
-python scripts/fetch_and_analyze.py
-```
+- Run the pipeline once: `python scripts/fetch_and_analyze.py`
+- Or serve the dashboard with `python scripts/dev_server.py` (instead of a
+  plain `http.server`) — this also exposes `POST /api/refresh`, which powers
+  the "Refrescar" button that only appears when the page is loaded from
+  `localhost`/`127.0.0.1`. That endpoint re-runs the same pipeline synchronously
+  and can take ~1 minute (one Meta API call per ad for delivery issues and
+  creative-change history). The button is inert on GitHub Pages — there's no
+  server there to answer `/api/refresh`, by design, so the Meta token never
+  reaches the browser.
 
 Full design rationale: see the design spec this plan implements,
 `2026-08-10-meta-ads-health-dashboard-design.md`, in the `test claude code`
