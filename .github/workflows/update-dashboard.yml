@@ -1,6 +1,7 @@
 name: Update dashboard
 
 on:
+  # re-touched to force GitHub to (re-)index this workflow
   schedule:
     - cron: "0 11 * * *"  # 08:00 ART (UTC-3) daily
   workflow_dispatch: {}
