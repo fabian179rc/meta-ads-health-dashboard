@@ -85,17 +85,16 @@ def get_ad_insights_for_range(account_id: str, token: str, since: str, until: st
 def get_delivery_issues(object_ids: list[str], token: str) -> dict[str, list[str]]:
     if not object_ids:
         return {}
-    body = _get(
-        "",
-        {
-            "ids": ",".join(object_ids),
-            "fields": "issues_info{error_summary,level}",
-        },
-        token,
-    )
     result = {}
-    for obj_id, obj in body.items():
-        issues = obj.get("issues_info", [])
+    for obj_id in object_ids:
+        body = _get(
+            obj_id,
+            {
+                "fields": "issues_info{error_summary,level}",
+            },
+            token,
+        )
+        issues = body.get("issues_info", [])
         blocking = [i["error_summary"] for i in issues if i.get("error_summary")]
         if blocking:
             result[obj_id] = blocking
