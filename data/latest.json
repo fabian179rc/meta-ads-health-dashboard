@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-17",
+  "generated_at": "2026-08-18",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-08-10",
-    "current_until": "2026-08-17",
-    "prior_since": "2026-08-03",
-    "prior_until": "2026-08-09"
+    "current_since": "2026-08-11",
+    "current_until": "2026-08-18",
+    "prior_since": "2026-08-04",
+    "prior_until": "2026-08-10"
   },
-  "account_spend": 308.4,
-  "account_purchases": 78,
-  "account_cpa": 3.95,
+  "account_spend": 358.42,
+  "account_purchases": 99,
+  "account_cpa": 3.62,
   "campaigns": [
     {
       "campaign_id": "120248428309360074",
       "campaign_name": "Capacitaciones Mex",
-      "spend": 156.66,
-      "purchases": 30,
+      "spend": 193.77,
+      "purchases": 39,
       "ads": [
         {
           "ad_id": "120248428309340074",
@@ -40,7 +40,7 @@
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 49 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 112 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -49,7 +49,7 @@
           "ad_name": "ad4",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 128 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 150 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -58,7 +58,7 @@
           "ad_name": "ad8 3/8",
           "verdict": "renew_creative",
           "reasons": [
-            "CTR cayó -45.5% vs. período anterior"
+            "CTR cayó -44.4% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
@@ -76,7 +76,16 @@
           "ad_name": "ad6 3/8",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 220 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 385 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120248949066300074",
+          "ad_name": "ad9 18/8",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 225 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         }
@@ -87,8 +96,8 @@
     {
       "campaign_id": "120248838377100074",
       "campaign_name": "Mega Pack Legal 13/8",
-      "spend": 93.82,
-      "purchases": 48,
+      "spend": 115.42,
+      "purchases": 60,
       "ads": [
         {
           "ad_id": "120248854650130074",
@@ -104,7 +113,7 @@
           "ad_name": "ad4",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 105 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 126 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -122,7 +131,7 @@
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 577 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 580 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -142,35 +151,35 @@
     {
       "campaign_id": "120248903616870074",
       "campaign_name": "ART 16/8",
-      "spend": 30.67,
+      "spend": 49.23,
       "purchases": 0,
       "ads": [
         {
           "ad_id": "120248903616860074",
           "ad_name": "ad1",
-          "verdict": "insufficient_data",
+          "verdict": "good",
           "reasons": [
-            "Solo 227 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248903691070074",
           "ad_name": "ad2",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 94 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 152 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248903691080074",
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 456 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 598 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248903737940074",
@@ -179,75 +188,20 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248903737950074",
           "ad_name": "ad5",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 235 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 355 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         }
       ],
       "verdict": "insufficient_data",
-      "days_since_last_creative": 1
-    },
-    {
-      "campaign_id": "120248904398180074",
-      "campaign_name": "Flexologia 15/8",
-      "spend": 27.25,
-      "purchases": 0,
-      "ads": [
-        {
-          "ad_id": "120248904412230074",
-          "ad_name": "ad1",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 723 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": 1
-        },
-        {
-          "ad_id": "120248904412460074",
-          "ad_name": "ad2",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 402 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": 1
-        },
-        {
-          "ad_id": "120248904412580074",
-          "ad_name": "ad3",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 1
-        },
-        {
-          "ad_id": "120248904412850074",
-          "ad_name": "ad4",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 1 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": 1
-        },
-        {
-          "ad_id": "120248904413420074",
-          "ad_name": "ad5",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 23 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": 1
-        }
-      ],
-      "verdict": "insufficient_data",
-      "days_since_last_creative": 1
+      "days_since_last_creative": 2
     }
   ]
 }
