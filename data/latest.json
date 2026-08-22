@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-21",
+  "generated_at": "2026-08-22",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-08-14",
-    "current_until": "2026-08-21",
-    "prior_since": "2026-08-07",
-    "prior_until": "2026-08-13"
+    "current_since": "2026-08-15",
+    "current_until": "2026-08-22",
+    "prior_since": "2026-08-08",
+    "prior_until": "2026-08-14"
   },
-  "account_spend": 329.58,
-  "account_purchases": 114,
-  "account_cpa": 2.89,
+  "account_spend": 401.71,
+  "account_purchases": 135,
+  "account_cpa": 2.98,
   "campaigns": [
     {
       "campaign_id": "120248838377100074",
       "campaign_name": "Mega Pack Legal 13/8",
-      "spend": 187.4,
+      "spend": 198.48,
       "purchases": 93,
       "ads": [
         {
@@ -22,7 +22,7 @@
           "ad_name": "ad1",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 109 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 29 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -31,7 +31,7 @@
           "ad_name": "ad4",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 121 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 111 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -40,7 +40,7 @@
           "ad_name": "ad5",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 67 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 16 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -49,7 +49,7 @@
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 269 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 68 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -58,7 +58,8 @@
           "ad_name": "ad2",
           "verdict": "renew_creative",
           "reasons": [
-            "CVR cayó -66.9% vs. período anterior"
+            "CTR cayó -33.2% vs. período anterior",
+            "CVR cayó -65.6% vs. período anterior"
           ],
           "days_since_last_creative": null
         }
@@ -69,8 +70,8 @@
     {
       "campaign_id": "120248903616870074",
       "campaign_name": "ART 16/8",
-      "spend": 108.85,
-      "purchases": 15,
+      "spend": 128.16,
+      "purchases": 21,
       "ads": [
         {
           "ad_id": "120248903616860074",
@@ -86,7 +87,7 @@
           "ad_name": "ad2",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 161 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 176 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -124,17 +125,17 @@
     {
       "campaign_id": "120248985561350074",
       "campaign_name": "amparos de salud 20/8",
-      "spend": 28.94,
-      "purchases": 6,
+      "spend": 46.0,
+      "purchases": 15,
       "ads": [
         {
           "ad_id": "120248985561370074",
           "ad_name": "ad1",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 615 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 742 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248985599670074",
@@ -143,32 +144,87 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248985599680074",
           "ad_name": "ad4",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 330 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 539 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248985599690074",
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 596 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 625 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120248985666670074",
           "ad_name": "ad5",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 143 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 223 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 2
+        }
+      ],
+      "verdict": "insufficient_data",
+      "days_since_last_creative": 2
+    },
+    {
+      "campaign_id": "120249003561830074",
+      "campaign_name": "Kit Opera 21/8",
+      "spend": 24.99,
+      "purchases": 6,
+      "ads": [
+        {
+          "ad_id": "120249003561850074",
+          "ad_name": "ad1",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": 1
+        },
+        {
+          "ad_id": "120249003672150074",
+          "ad_name": "ad4",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 729 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 1
+        },
+        {
+          "ad_id": "120249003672160074",
+          "ad_name": "ad3",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 192 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 1
+        },
+        {
+          "ad_id": "120249003672170074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 516 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 1
+        },
+        {
+          "ad_id": "120249003820410074",
+          "ad_name": "ad5",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 453 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": 1
         }
@@ -177,58 +233,58 @@
       "days_since_last_creative": 1
     },
     {
-      "campaign_id": "120249003561830074",
-      "campaign_name": "Kit Opera 21/8",
-      "spend": 4.39,
+      "campaign_id": "120249020400740074",
+      "campaign_name": "Kit mente 22/8",
+      "spend": 4.08,
       "purchases": 0,
       "ads": [
         {
-          "ad_id": "120249003561850074",
+          "ad_id": "120249020400730074",
           "ad_name": "ad1",
-          "verdict": "insufficient_data",
+          "verdict": "kill_candidate",
           "reasons": [
-            "Solo 133 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Error de entrega bloqueante activo"
           ],
           "days_since_last_creative": 0
         },
         {
-          "ad_id": "120249003672150074",
-          "ad_name": "ad4",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 109 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": 0
-        },
-        {
-          "ad_id": "120249003672160074",
-          "ad_name": "ad3",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 17 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": 0
-        },
-        {
-          "ad_id": "120249003672170074",
+          "ad_id": "120249020448880074",
           "ad_name": "ad2",
-          "verdict": "insufficient_data",
+          "verdict": "kill_candidate",
           "reasons": [
-            "Solo 55 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Error de entrega bloqueante activo"
           ],
           "days_since_last_creative": 0
         },
         {
-          "ad_id": "120249003820410074",
-          "ad_name": "ad5",
-          "verdict": "insufficient_data",
+          "ad_id": "120249020448890074",
+          "ad_name": "ad3",
+          "verdict": "kill_candidate",
           "reasons": [
-            "Solo 170 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Error de entrega bloqueante activo"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249020585140074",
+          "ad_name": "ad5",
+          "verdict": "kill_candidate",
+          "reasons": [
+            "Error de entrega bloqueante activo"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249020585150074",
+          "ad_name": "ad4",
+          "verdict": "kill_candidate",
+          "reasons": [
+            "Error de entrega bloqueante activo"
           ],
           "days_since_last_creative": 0
         }
       ],
-      "verdict": "insufficient_data",
+      "verdict": "kill_candidate",
       "days_since_last_creative": 0
     }
   ]
