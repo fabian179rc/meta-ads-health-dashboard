@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-31",
+  "generated_at": "2026-09-01",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-08-24",
-    "current_until": "2026-08-31",
-    "prior_since": "2026-08-17",
-    "prior_until": "2026-08-23"
+    "current_since": "2026-08-25",
+    "current_until": "2026-09-01",
+    "prior_since": "2026-08-18",
+    "prior_until": "2026-08-24"
   },
-  "account_spend": 955.46,
-  "account_purchases": 291,
-  "account_cpa": 3.28,
+  "account_spend": 900.99,
+  "account_purchases": 264,
+  "account_cpa": 3.41,
   "campaigns": [
     {
       "campaign_id": "120248838377100074",
       "campaign_name": "Mega Pack Legal 13/8",
-      "spend": 281.96,
-      "purchases": 84,
+      "spend": 285.67,
+      "purchases": 78,
       "ads": [
         {
           "ad_id": "120248854650180074",
@@ -33,66 +33,20 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         },
         {
           "ad_id": "120249113373830074",
           "ad_name": "ad3 varia 28/8",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 888 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 890 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         },
         {
           "ad_id": "120249113373840074",
           "ad_name": "ad3 28/8",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 3
-        }
-      ],
-      "verdict": "insufficient_data",
-      "days_since_last_creative": 3
-    },
-    {
-      "campaign_id": "120249035915390074",
-      "campaign_name": "Geolo español",
-      "spend": 170.39,
-      "purchases": 39,
-      "ads": [
-        {
-          "ad_id": "120249036108380074",
-          "ad_name": "ad2",
-          "verdict": "insufficient_data",
-          "reasons": [
-            "Solo 26 impresiones / 7 días activa — todavía no hay señal confiable"
-          ],
-          "days_since_last_creative": null
-        },
-        {
-          "ad_id": "120249036108390074",
-          "ad_name": "ad3",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": null
-        },
-        {
-          "ad_id": "120249036108400074",
-          "ad_name": "ad5",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": null
-        },
-        {
-          "ad_id": "120249036108410074",
-          "ad_name": "ad4",
           "verdict": "good",
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
@@ -106,8 +60,8 @@
     {
       "campaign_id": "120249065806010074",
       "campaign_name": "Instru  25/8",
-      "spend": 263.92,
-      "purchases": 63,
+      "spend": 295.83,
+      "purchases": 66,
       "ads": [
         {
           "ad_id": "120249065806030074",
@@ -141,7 +95,7 @@
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 181 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 203 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -161,8 +115,8 @@
     {
       "campaign_id": "120249112668440074",
       "campaign_name": "Indust Latam",
-      "spend": 239.19,
-      "purchases": 105,
+      "spend": 281.64,
+      "purchases": 117,
       "ads": [
         {
           "ad_id": "120249112668460074",
@@ -171,7 +125,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         },
         {
           "ad_id": "120249112710190074",
@@ -180,7 +134,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         },
         {
           "ad_id": "120249112710200074",
@@ -189,7 +143,7 @@
           "reasons": [
             "Solo 225 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         },
         {
           "ad_id": "120249112710210074",
@@ -198,7 +152,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         },
         {
           "ad_id": "120249112710220074",
@@ -207,11 +161,66 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": null
         }
       ],
       "verdict": "insufficient_data",
-      "days_since_last_creative": 3
+      "days_since_last_creative": null
+    },
+    {
+      "campaign_id": "120249161557840074",
+      "campaign_name": "Integracion Campo 1/9",
+      "spend": 37.85,
+      "purchases": 3,
+      "ads": [
+        {
+          "ad_id": "120249161557850074",
+          "ad_name": "ad1",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 387 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249161601180074",
+          "ad_name": "ad3",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 469 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249161601190074",
+          "ad_name": "ad5",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249161601200074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 449 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249161601210074",
+          "ad_name": "ad4",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": 0
+        }
+      ],
+      "verdict": "insufficient_data",
+      "days_since_last_creative": 0
     }
   ]
 }
