@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-18",
+  "generated_at": "2026-09-19",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-09-11",
-    "current_until": "2026-09-18",
-    "prior_since": "2026-09-04",
-    "prior_until": "2026-09-10"
+    "current_since": "2026-09-12",
+    "current_until": "2026-09-19",
+    "prior_since": "2026-09-05",
+    "prior_until": "2026-09-11"
   },
-  "account_spend": 448.87,
-  "account_purchases": 93,
-  "account_cpa": 4.83,
+  "account_spend": 490.34,
+  "account_purchases": 102,
+  "account_cpa": 4.81,
   "campaigns": [
     {
       "campaign_id": "120249161557840074",
       "campaign_name": "Integracion Campo 1/9",
-      "spend": 416.08,
-      "purchases": 87,
+      "spend": 411.77,
+      "purchases": 81,
       "ads": [
         {
           "ad_id": "120249161557850074",
           "ad_name": "ad1",
           "verdict": "renew_creative",
           "reasons": [
-            "CVR cayó -46.5% vs. período anterior"
+            "CVR cayó -53.5% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
@@ -49,8 +49,7 @@
           "ad_name": "ad2",
           "verdict": "renew_creative",
           "reasons": [
-            "CTR cayó -31.2% vs. período anterior",
-            "CVR cayó -53.6% vs. período anterior"
+            "CVR cayó -40.3% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
@@ -70,8 +69,8 @@
     {
       "campaign_id": "120249475337500074",
       "campaign_name": "Atle 18/9",
-      "spend": 32.79,
-      "purchases": 6,
+      "spend": 70.43,
+      "purchases": 21,
       "ads": [
         {
           "ad_id": "120249475337480074",
@@ -87,25 +86,25 @@
           "ad_name": "ad5",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 196 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 565 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 1
         },
         {
           "ad_id": "120249475531560074",
           "ad_name": "ad4",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 321 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 471 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 0
+          "days_since_last_creative": 1
         },
         {
           "ad_id": "120249475531570074",
           "ad_name": "ad3",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 327 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 655 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
           "days_since_last_creative": null
         },
@@ -120,7 +119,62 @@
         }
       ],
       "verdict": "insufficient_data",
-      "days_since_last_creative": 0
+      "days_since_last_creative": 1
+    },
+    {
+      "campaign_id": "120249494560110074",
+      "campaign_name": "Pro Edu Fisica 19/9",
+      "spend": 8.14,
+      "purchases": 0,
+      "ads": [
+        {
+          "ad_id": "120249494560130074",
+          "ad_name": "ad1",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 394 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249494584290074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 753 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249494584300074",
+          "ad_name": "ad5",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 54 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249494584310074",
+          "ad_name": "ad4",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 531 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249494584320074",
+          "ad_name": "ad3",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 200 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        }
+      ],
+      "verdict": "insufficient_data",
+      "days_since_last_creative": null
     }
   ]
 }
