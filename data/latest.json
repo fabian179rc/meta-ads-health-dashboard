@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-21",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-09-13",
-    "current_until": "2026-09-20",
-    "prior_since": "2026-09-06",
-    "prior_until": "2026-09-12"
+    "current_since": "2026-09-14",
+    "current_until": "2026-09-21",
+    "prior_since": "2026-09-07",
+    "prior_until": "2026-09-13"
   },
-  "account_spend": 530.6,
-  "account_purchases": 138,
-  "account_cpa": 3.84,
+  "account_spend": 657.12,
+  "account_purchases": 159,
+  "account_cpa": 4.13,
   "campaigns": [
     {
       "campaign_id": "120249161557840074",
       "campaign_name": "Integracion Campo 1/9",
-      "spend": 424.58,
-      "purchases": 90,
+      "spend": 439.07,
+      "purchases": 87,
       "ads": [
         {
           "ad_id": "120249161557850074",
           "ad_name": "ad1",
-          "verdict": "renew_creative",
+          "verdict": "good",
           "reasons": [
-            "CVR cayó -35.9% vs. período anterior"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
           "days_since_last_creative": null
         },
@@ -38,18 +38,18 @@
         {
           "ad_id": "120249161601190074",
           "ad_name": "ad5",
-          "verdict": "good",
+          "verdict": "renew_creative",
           "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
+            "CVR cayó -53.9% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
         {
           "ad_id": "120249161601200074",
           "ad_name": "ad2",
-          "verdict": "renew_creative",
+          "verdict": "good",
           "reasons": [
-            "CVR cayó -34.3% vs. período anterior"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
           "days_since_last_creative": null
         },
@@ -69,8 +69,8 @@
     {
       "campaign_id": "120249475337500074",
       "campaign_name": "Atle 18/9",
-      "spend": 106.02,
-      "purchases": 48,
+      "spend": 185.43,
+      "purchases": 72,
       "ads": [
         {
           "ad_id": "120249475337480074",
@@ -79,7 +79,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249475531550074",
@@ -88,16 +88,16 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 2
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249475531560074",
           "ad_name": "ad4",
-          "verdict": "insufficient_data",
+          "verdict": "good",
           "reasons": [
-            "Solo 676 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 2
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249475531570074",
@@ -106,7 +106,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 2
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249475531580074",
@@ -115,11 +115,66 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 2
+          "days_since_last_creative": 3
+        }
+      ],
+      "verdict": "good",
+      "days_since_last_creative": 3
+    },
+    {
+      "campaign_id": "120249517667110074",
+      "campaign_name": "Profe educacion 21/9",
+      "spend": 32.62,
+      "purchases": 0,
+      "ads": [
+        {
+          "ad_id": "120249517667120074",
+          "ad_name": "ad1",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 738 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249517794100074",
+          "ad_name": "ad2",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249517794110074",
+          "ad_name": "ad3",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 168 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249517794120074",
+          "ad_name": "ad4",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249517794130074",
+          "ad_name": "ad5",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 809 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": null
         }
       ],
       "verdict": "insufficient_data",
-      "days_since_last_creative": 2
+      "days_since_last_creative": null
     }
   ]
 }
