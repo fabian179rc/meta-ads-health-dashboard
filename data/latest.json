@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-22",
+  "generated_at": "2026-09-23",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-09-15",
-    "current_until": "2026-09-22",
-    "prior_since": "2026-09-08",
-    "prior_until": "2026-09-14"
+    "current_since": "2026-09-16",
+    "current_until": "2026-09-23",
+    "prior_since": "2026-09-09",
+    "prior_until": "2026-09-15"
   },
-  "account_spend": 566.08,
-  "account_purchases": 150,
-  "account_cpa": 3.77,
+  "account_spend": 699.43,
+  "account_purchases": 153,
+  "account_cpa": 4.57,
   "campaigns": [
     {
       "campaign_id": "120249161557840074",
       "campaign_name": "Integracion Campo 1/9",
-      "spend": 275.68,
-      "purchases": 69,
+      "spend": 293.2,
+      "purchases": 66,
       "ads": [
         {
           "ad_id": "120249161601180074",
@@ -47,21 +47,21 @@
         {
           "ad_id": "120249541231610074",
           "ad_name": "ad7 imag 22/9",
-          "verdict": "insufficient_data",
+          "verdict": "good",
           "reasons": [
-            "Solo 183 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
           "days_since_last_creative": null
         }
       ],
-      "verdict": "insufficient_data",
+      "verdict": "good",
       "days_since_last_creative": null
     },
     {
       "campaign_id": "120249475337500074",
       "campaign_name": "Atle 18/9",
-      "spend": 221.3,
-      "purchases": 75,
+      "spend": 296.42,
+      "purchases": 81,
       "ads": [
         {
           "ad_id": "120249475337480074",
@@ -70,7 +70,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 4
+          "days_since_last_creative": 5
         },
         {
           "ad_id": "120249475531550074",
@@ -79,7 +79,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 4
+          "days_since_last_creative": 5
         },
         {
           "ad_id": "120249475531560074",
@@ -88,7 +88,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 4
+          "days_since_last_creative": 5
         },
         {
           "ad_id": "120249475531570074",
@@ -97,7 +97,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 4
+          "days_since_last_creative": 5
         },
         {
           "ad_id": "120249475531580074",
@@ -106,16 +106,16 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 4
+          "days_since_last_creative": 5
         }
       ],
       "verdict": "good",
-      "days_since_last_creative": 4
+      "days_since_last_creative": 5
     },
     {
       "campaign_id": "120249517667110074",
       "campaign_name": "Profe educacion 21/9",
-      "spend": 69.1,
+      "spend": 109.81,
       "purchases": 6,
       "ads": [
         {
@@ -125,7 +125,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120249517794100074",
@@ -139,9 +139,9 @@
         {
           "ad_id": "120249517794110074",
           "ad_name": "ad3",
-          "verdict": "insufficient_data",
+          "verdict": "good",
           "reasons": [
-            "Solo 460 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
           "days_since_last_creative": null
         },
@@ -161,11 +161,11 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         }
       ],
-      "verdict": "insufficient_data",
-      "days_since_last_creative": 1
+      "verdict": "good",
+      "days_since_last_creative": 2
     }
   ]
 }
