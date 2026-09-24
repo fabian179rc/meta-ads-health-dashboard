@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-24",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-09-16",
-    "current_until": "2026-09-23",
-    "prior_since": "2026-09-09",
-    "prior_until": "2026-09-15"
+    "current_since": "2026-09-17",
+    "current_until": "2026-09-24",
+    "prior_since": "2026-09-10",
+    "prior_until": "2026-09-16"
   },
-  "account_spend": 699.43,
-  "account_purchases": 153,
-  "account_cpa": 4.57,
+  "account_spend": 806.78,
+  "account_purchases": 168,
+  "account_cpa": 4.8,
   "campaigns": [
     {
       "campaign_id": "120249161557840074",
       "campaign_name": "Integracion Campo 1/9",
-      "spend": 293.2,
-      "purchases": 66,
+      "spend": 304.63,
+      "purchases": 69,
       "ads": [
         {
           "ad_id": "120249161601180074",
@@ -51,17 +51,17 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 2
         }
       ],
       "verdict": "good",
-      "days_since_last_creative": null
+      "days_since_last_creative": 2
     },
     {
       "campaign_id": "120249475337500074",
       "campaign_name": "Atle 18/9",
-      "spend": 296.42,
-      "purchases": 81,
+      "spend": 345.24,
+      "purchases": 90,
       "ads": [
         {
           "ad_id": "120249475337480074",
@@ -70,7 +70,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 5
+          "days_since_last_creative": 6
         },
         {
           "ad_id": "120249475531550074",
@@ -79,7 +79,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 5
+          "days_since_last_creative": 6
         },
         {
           "ad_id": "120249475531560074",
@@ -88,7 +88,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 5
+          "days_since_last_creative": 6
         },
         {
           "ad_id": "120249475531570074",
@@ -97,7 +97,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 5
+          "days_since_last_creative": 6
         },
         {
           "ad_id": "120249475531580074",
@@ -106,17 +106,17 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 5
+          "days_since_last_creative": 6
         }
       ],
       "verdict": "good",
-      "days_since_last_creative": 5
+      "days_since_last_creative": 6
     },
     {
       "campaign_id": "120249517667110074",
       "campaign_name": "Profe educacion 21/9",
-      "spend": 109.81,
-      "purchases": 6,
+      "spend": 156.91,
+      "purchases": 9,
       "ads": [
         {
           "ad_id": "120249517667120074",
@@ -125,7 +125,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 2
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249517794100074",
@@ -143,7 +143,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249517794120074",
@@ -152,7 +152,7 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249517794130074",
@@ -161,11 +161,11 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 2
+          "days_since_last_creative": 3
         }
       ],
       "verdict": "good",
-      "days_since_last_creative": 2
+      "days_since_last_creative": 3
     }
   ]
 }
