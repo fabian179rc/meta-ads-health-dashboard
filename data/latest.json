@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-24",
+  "generated_at": "2026-09-25",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-09-17",
-    "current_until": "2026-09-24",
-    "prior_since": "2026-09-10",
-    "prior_until": "2026-09-16"
+    "current_since": "2026-09-18",
+    "current_until": "2026-09-25",
+    "prior_since": "2026-09-11",
+    "prior_until": "2026-09-17"
   },
-  "account_spend": 806.78,
-  "account_purchases": 168,
-  "account_cpa": 4.8,
+  "account_spend": 774.69,
+  "account_purchases": 165,
+  "account_cpa": 4.7,
   "campaigns": [
     {
       "campaign_id": "120249161557840074",
       "campaign_name": "Integracion Campo 1/9",
-      "spend": 304.63,
-      "purchases": 69,
+      "spend": 335.56,
+      "purchases": 66,
       "ads": [
         {
           "ad_id": "120249161601180074",
@@ -42,121 +42,11 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": null
+          "days_since_last_creative": 3
         },
         {
           "ad_id": "120249541231610074",
           "ad_name": "ad7 imag 22/9",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 2
-        }
-      ],
-      "verdict": "good",
-      "days_since_last_creative": 2
-    },
-    {
-      "campaign_id": "120249475337500074",
-      "campaign_name": "Atle 18/9",
-      "spend": 345.24,
-      "purchases": 90,
-      "ads": [
-        {
-          "ad_id": "120249475337480074",
-          "ad_name": "ad1",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 6
-        },
-        {
-          "ad_id": "120249475531550074",
-          "ad_name": "ad5",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 6
-        },
-        {
-          "ad_id": "120249475531560074",
-          "ad_name": "ad4",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 6
-        },
-        {
-          "ad_id": "120249475531570074",
-          "ad_name": "ad3",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 6
-        },
-        {
-          "ad_id": "120249475531580074",
-          "ad_name": "ad2",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 6
-        }
-      ],
-      "verdict": "good",
-      "days_since_last_creative": 6
-    },
-    {
-      "campaign_id": "120249517667110074",
-      "campaign_name": "Profe educacion 21/9",
-      "spend": 156.91,
-      "purchases": 9,
-      "ads": [
-        {
-          "ad_id": "120249517667120074",
-          "ad_name": "ad1",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 3
-        },
-        {
-          "ad_id": "120249517794100074",
-          "ad_name": "ad2",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": null
-        },
-        {
-          "ad_id": "120249517794110074",
-          "ad_name": "ad3",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 3
-        },
-        {
-          "ad_id": "120249517794120074",
-          "ad_name": "ad4",
-          "verdict": "good",
-          "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
-          ],
-          "days_since_last_creative": 3
-        },
-        {
-          "ad_id": "120249517794130074",
-          "ad_name": "ad5",
           "verdict": "good",
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
@@ -166,6 +56,116 @@
       ],
       "verdict": "good",
       "days_since_last_creative": 3
+    },
+    {
+      "campaign_id": "120249475337500074",
+      "campaign_name": "Atle 18/9",
+      "spend": 416.86,
+      "purchases": 99,
+      "ads": [
+        {
+          "ad_id": "120249475337480074",
+          "ad_name": "ad1",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": 7
+        },
+        {
+          "ad_id": "120249475531550074",
+          "ad_name": "ad5",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249475531560074",
+          "ad_name": "ad4",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249475531570074",
+          "ad_name": "ad3",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": null
+        },
+        {
+          "ad_id": "120249475531580074",
+          "ad_name": "ad2",
+          "verdict": "good",
+          "reasons": [
+            "Sin errores, ranking y tendencias dentro de lo esperado"
+          ],
+          "days_since_last_creative": 7
+        }
+      ],
+      "verdict": "good",
+      "days_since_last_creative": 7
+    },
+    {
+      "campaign_id": "120249593184110074",
+      "campaign_name": "carrita en ingles 25/9",
+      "spend": 22.27,
+      "purchases": 0,
+      "ads": [
+        {
+          "ad_id": "120249593184090074",
+          "ad_name": "ad1",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 6 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249593273130074",
+          "ad_name": "ad5",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 572 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249593273140074",
+          "ad_name": "ad4",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 8 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249593273150074",
+          "ad_name": "ad3",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 5 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        },
+        {
+          "ad_id": "120249593273160074",
+          "ad_name": "ad2",
+          "verdict": "insufficient_data",
+          "reasons": [
+            "Solo 27 impresiones / 7 días activa — todavía no hay señal confiable"
+          ],
+          "days_since_last_creative": 0
+        }
+      ],
+      "verdict": "insufficient_data",
+      "days_since_last_creative": 0
     }
   ]
 }
