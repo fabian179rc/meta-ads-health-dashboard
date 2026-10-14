@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "account_id": "1899970234248234",
   "period": {
-    "current_since": "2026-10-06",
-    "current_until": "2026-10-13",
-    "prior_since": "2026-09-29",
-    "prior_until": "2026-10-05"
+    "current_since": "2026-10-07",
+    "current_until": "2026-10-14",
+    "prior_since": "2026-09-30",
+    "prior_until": "2026-10-06"
   },
-  "account_spend": 779.44,
-  "account_purchases": 168,
-  "account_cpa": 4.64,
+  "account_spend": 921.49,
+  "account_purchases": 186,
+  "account_cpa": 4.95,
   "campaigns": [
     {
       "campaign_id": "120249161557840074",
       "campaign_name": "Integracion Campo 1/9",
-      "spend": 138.93,
-      "purchases": 21,
+      "spend": 170.93,
+      "purchases": 30,
       "ads": [
         {
           "ad_id": "120249161601180074",
@@ -33,24 +33,24 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 3
+          "days_since_last_creative": 4
         }
       ],
       "verdict": "renew_creative",
-      "days_since_last_creative": 3
+      "days_since_last_creative": 4
     },
     {
       "campaign_id": "120249744694660074",
       "campaign_name": "Handb Ingles 4/10",
-      "spend": 357.21,
-      "purchases": 51,
+      "spend": 364.6,
+      "purchases": 42,
       "ads": [
         {
           "ad_id": "120249744694680074",
           "ad_name": "ad1",
           "verdict": "renew_creative",
           "reasons": [
-            "CVR cayó -65.7% vs. período anterior"
+            "CVR cayó -74.3% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
@@ -59,7 +59,8 @@
           "ad_name": "ad2",
           "verdict": "renew_creative",
           "reasons": [
-            "CVR cayó -60.9% vs. período anterior"
+            "CTR cayó -30.5% vs. período anterior",
+            "CVR cayó -80.1% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
@@ -68,16 +69,16 @@
           "ad_name": "ad4",
           "verdict": "renew_creative",
           "reasons": [
-            "CVR cayó -36.4% vs. período anterior"
+            "CVR cayó -30.8% vs. período anterior"
           ],
           "days_since_last_creative": null
         },
         {
           "ad_id": "120249744725750074",
           "ad_name": "ad5",
-          "verdict": "good",
+          "verdict": "renew_creative",
           "reasons": [
-            "Sin errores, ranking y tendencias dentro de lo esperado"
+            "CTR cayó -28.1% vs. período anterior"
           ],
           "days_since_last_creative": null
         }
@@ -88,8 +89,8 @@
     {
       "campaign_id": "120249824925950074",
       "campaign_name": "futsal 9/10",
-      "spend": 213.15,
-      "purchases": 90,
+      "spend": 278.13,
+      "purchases": 102,
       "ads": [
         {
           "ad_id": "120249824925970074",
@@ -143,17 +144,17 @@
     {
       "campaign_id": "120249869687850074",
       "campaign_name": "Basquet 12/10",
-      "spend": 70.15,
-      "purchases": 6,
+      "spend": 107.83,
+      "purchases": 12,
       "ads": [
         {
           "ad_id": "120249869687870074",
           "ad_name": "ad5",
           "verdict": "insufficient_data",
           "reasons": [
-            "Solo 772 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Solo 864 impresiones / 7 días activa — todavía no hay señal confiable"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120249869783760074",
@@ -162,16 +163,16 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120249869783770074",
           "ad_name": "ad4",
-          "verdict": "insufficient_data",
+          "verdict": "good",
           "reasons": [
-            "Solo 820 impresiones / 7 días activa — todavía no hay señal confiable"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120249869783780074",
@@ -180,20 +181,20 @@
           "reasons": [
             "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         },
         {
           "ad_id": "120249869783790074",
           "ad_name": "ad2",
-          "verdict": "kill_candidate",
+          "verdict": "good",
           "reasons": [
-            "$50.67 de gasto sin ventas en 7 días"
+            "Sin errores, ranking y tendencias dentro de lo esperado"
           ],
-          "days_since_last_creative": 1
+          "days_since_last_creative": 2
         }
       ],
-      "verdict": "kill_candidate",
-      "days_since_last_creative": 1
+      "verdict": "insufficient_data",
+      "days_since_last_creative": 2
     }
   ]
 }
